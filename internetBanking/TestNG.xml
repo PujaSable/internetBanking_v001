@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="internetBanking">
+  <test thread-count="5" name="BankingApp Test">
+  <parameter name="Browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.visionIT.internetBanking.testCases.Login_Tc_001" />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

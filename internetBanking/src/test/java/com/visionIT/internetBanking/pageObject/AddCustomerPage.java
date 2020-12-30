@@ -16,7 +16,7 @@ public class AddCustomerPage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(how = How.XPATH, using ="/html/body/div[3]/div/ul/li[2]/a")
+	@FindBy(xpath ="/html/body/div[3]/div/ul/li[2]/a")
 	@CacheLookup
 	WebElement lnkAddNewCustomer;
 
